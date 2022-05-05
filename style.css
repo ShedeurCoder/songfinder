@@ -1,0 +1,37 @@
+* {
+    font-family: 'Comic Sans MS';
+}
+header {
+    text-align: center;
+}
+h1 {
+    font-size: 3rem;
+}
+form {
+    font-size: 1.5rem;
+}
+button, input {
+    font-size: 1.2rem;
+}
+#songs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+#songs article {
+    text-align: center;
+}
+#songs p {
+    margin: 0;
+}
+audio {
+    width: 100%;
+}
+#searchinput {
+    width: 35%;
+}
+@media only screen and (min-width: 800px) {
+    #songs {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
